@@ -1,0 +1,3 @@
+##All of the following are Powershell Commands
+
+Get-NetUser -UserName "samwell.tarly" -Properties description
