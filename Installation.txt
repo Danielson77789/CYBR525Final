@@ -1,0 +1,15 @@
+GOAD Installation Directions for Kali Linux
+
+1: sudo apt update  ##Check for Updates
+
+2: sudo apt upgrade  ##Check for Upgrades
+
+3: sudo apt install virtualbox python3-venv sshpass lftp rsync openssh-client vagrant ansible  ##Install everything you need
+
+4: vagrant plugin install vagrant-reload vagrant-vbguest winrm winrm-fs winrm-elevated  ##Install the necessary vagrant plugins
+
+5: git clone https://github.com/Orange-Cyberdefense/GOAD.git  ##Clone the repository
+
+6: cd GOAD  ##Change directories to the clone location
+
+7: ./goad.sh -t install -l GOAD -p virtualbox  ##Run the GOAD interface shell: -t tells it what template to use (install, check dependencies, etc), -l is which lab version, -p is your provider
