@@ -1,3 +1,5 @@
 ##All of the following are Powershell Commands
 
+Get-ADUser -Filter * 
+
 Get-NetUser -UserName "samwell.tarly" -Properties description
